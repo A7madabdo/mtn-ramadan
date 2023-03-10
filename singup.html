@@ -48,12 +48,15 @@
               >
                 <div
                   class="position-relative h-100 m-3 border-radius-lg d-flex justify-content-end p-4"
-                  style="background-image: url('./assets/img/Untitled-2.png'); background-size: cover"
+                  style="
+                    background-image: url('./assets/img/DigitalCampaignsize600x800.png');
+                    background-size: contain;
+                  "
                   loading="lazy"
                 >
                   <div>
-                    <a href="/" class="btn btn-outline-primary"
-                      >رجوع <i class="fas fa-arrow-left fa-large text-lg" aria-hidden="true"> </i
+                    <a href="/" class="btn bg-gradient-primary"
+                      >رجوع <i class="fas fa-arrow-left text-lg" aria-hidden="true"> </i
                     ></a>
                   </div>
                 </div>
@@ -66,10 +69,7 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    <p class="pb-3">
-                      شرح مبسط لشروط التسجيل والطريقة وتفاصيل اخري هنا وهناكشرح مبسط لشروط التسجيل والطريقة
-                      وتفاصيل اخري هنا وهناكشرح مبسط لشروط التسجيل والطريقة وتفاصيل اخري هنا وهناك
-                    </p>
+                    <p class="pb-3">الرجاء ملئ البيانات التالية للتسجيل</p>
                     <form id="contact-form" method="post" autocomplete="off" action="dashboard.html">
                       <div class="card-body p-0 my-3">
                         <div class="row">
@@ -127,7 +127,35 @@
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-md-12 text-center">
+                          <div class="col-md-12">
+                            <div class="form-check form-switch mb-4 d-flex align-items-center">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="flexSwitchCheckDefault"
+                                checked=""
+                              />
+                              <label class="form-check-label ms-3 mb-0 px-6" for="flexSwitchCheckDefault"
+                                >أوافق علي استخدام محتواي من اجل الترويج</label
+                              >
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-check form-switch mb-4 d-flex align-items-center">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="flexSwitchCheckDefault2"
+                                />
+                                <label class="form-check-label ms-3 mb-0 px-6" for="flexSwitchCheckDefault2">
+                                  <a href="#" class="text-dark"> أوافق علي <u>الشروط والاحكام </u> </a>
+                                  للمسابقة.</label
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 text-center mx-auto">
                             <button type="submit" class="btn bg-gradient-primary mt-3 mb-0 w-100">
                               تسجيل
                             </button>
@@ -166,88 +194,12 @@
             </div>
             <div></div>
           </div>
-          <div class="col-md-2 col-sm-6 col-6 mb-4">
+          <div class="col-md-6 col-sm-6 col-6 mx-auto mt-5">
             <div>
-              <h6 class="text-sm text-white">Company</h6>
-              <ul class="flex-column nav">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> About Us </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Freebies </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Premium Tools </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Blog </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mb-4">
-            <div>
-              <h6 class="text-sm text-white">Resources</h6>
-              <ul class="flex-column nav">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Illustrations </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Bits & Snippets </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Affiliate Program </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mb-4">
-            <div>
-              <h6 class="text-sm text-white">Help & Support</h6>
-              <ul class="flex-column nav">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Contact Us </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Knowledge Center </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#" target="_blank"> Custom Development </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/sponsorships" target="_blank"> Sponsorships </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
-            <div>
-              <h6 class="text-sm text-white">Legal</h6>
-              <ul class="flex-column nav">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/knowledge-center/terms-of-service" target="_blank">
-                    Terms & Conditions
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/knowledge-center/privacy-policy" target="_blank">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="/license" target="_blank"> Licenses (EULA) </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="text-center">
-              <p class="text-dark my-4 text-sm font-weight-normal text-white">
-                All rights reserved. Copyright ©
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-              </p>
+              <strong class="p-4 text-white">أتصل بنا : </strong>
+              <a class="text-white" tel="111" target="_blank">
+                في حال واجهتك مشكلة الرجاء الاتصال علي : <strong>111</strong>
+              </a>
             </div>
           </div>
         </div>
